@@ -1,3 +1,50 @@
+/* Remove previous styling for font icons */
+.service-box {
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+}
+
+.contact-section {
+    background-color: #ffffff;
+}
+
+.contact-details {
+    margin-top: 20px;
+}
+
+.contact-details p {
+    font-size: 1.2em;
+}
+
+.contact-icon {
+    width: 24px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+/* Styling for service icons */
+.service-icon {
+    width: 64px; /* Adjust size as needed */
+    margin-bottom: 20px; /* Add some spacing between the icon and text */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    color: #6c757d;
+}
 body {
     background-color: #f8f9fa;
     font-family: 'Roboto', sans-serif;
